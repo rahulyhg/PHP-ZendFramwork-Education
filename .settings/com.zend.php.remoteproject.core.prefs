@@ -1,0 +1,9 @@
+LaunchURL=http\://server/folder
+Save\ Mode=ON_SAVE
+SelectedHostGUID=d8495777-f43d-41a8-bd85-a8eca1eae230
+UploadFolder=/var/www
+eclipse.preferences.version=1
+exclusionPatterns=
+inclusionPatterns=
+isLocalProjectEnabled=false
+isRemoteProjectEnabled=true
