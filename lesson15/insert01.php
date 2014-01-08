@@ -1,12 +1,15 @@
-<html>
-<body>
+<?php
+$con = mysqli_connect ( "localhost", "root", "1234", "my_db" );
+// Check connection
+if (mysqli_connect_errno ()) {
+	echo "Failed to connect to MySQL: " . mysqli_connect_error ();
+}
 
-<form action="insert.php" method="post">
-Firstname: <input type="text" name="firstname">
-Lastname: <input type="text" name="lastname">
-Age: <input type="text" name="age">
-<input type="submit">
-</form>
+mysqli_query ( $con, "INSERT INTO Persons (FirstName, LastName, Age)
+VALUES ('Peter', 'Griffin',35)" );
 
-</body>
-</html>
+mysqli_query ( $con, "INSERT INTO Persons (FirstName, LastName, Age) 
+VALUES ('Glenn', 'Quagmire',33)" );
+
+mysqli_close ( $con );
+?>
