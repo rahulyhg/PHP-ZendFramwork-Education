@@ -30,16 +30,17 @@ xmlhttp.send();
 </head>
 <body>
 
-<form>
-Select a CD:
-<select name="cds" onchange="showCD(this.value)">
-<option value="">Select a CD:</option>
-<option value="Bob Dylan">Bob Dylan</option>
-<option value="Bonnie Tyler">Bonnie Tyler</option>
-<option value="Dolly Parton">Dolly Parton</option>
-</select>
-</form>
-<div id="txtHint"><b>CD info will be listed here...</b></div>
+	<form>
+		Select a CD: <select name="cds" onchange="showCD(this.value)">
+			<option value="">Select a CD:</option>
+			<option value="Bob Dylan">Bob Dylan</option>
+			<option value="Bonnie Tyler">Bonnie Tyler</option>
+			<option value="Dolly Parton">Dolly Parton</option>
+		</select>
+	</form>
+	<div id="txtHint">
+		<b>CD info will be listed here...</b>
+	</div>
 
 </body>
 </html>

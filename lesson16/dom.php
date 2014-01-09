@@ -1,6 +1,6 @@
 <?php
-$xmlDoc = new DOMDocument();
-$xmlDoc->load("note.xml");
+$xmlDoc = new DOMDocument ();
+$xmlDoc->load ( "note.xml" );
 
-print $xmlDoc->saveXML();
+print $xmlDoc->saveXML ();
 ?>

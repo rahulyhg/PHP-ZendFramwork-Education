@@ -11,7 +11,7 @@ if (isset ( $_REQUEST ['email'] ))
 	$message = $_REQUEST ['message'];
 	mail ( "someone@example.com", "Subject: $subject", $message, "From: $email" );
 	echo "Thank you for using our mail form";
-} else// if "email" is not filled out, display the form
+} else // if "email" is not filled out, display the form
 {
 	echo "<form method='post' action='mailform.php'>
   Email: <input name='email' type='text'><br>

@@ -1,10 +1,9 @@
 <?php
-$xmlDoc = new DOMDocument();
-$xmlDoc->load("note.xml");
+$xmlDoc = new DOMDocument ();
+$xmlDoc->load ( "note.xml" );
 
 $x = $xmlDoc->documentElement;
-foreach ($x->childNodes AS $item)
-  {
-  print $item->nodeName . " = " . $item->nodeValue . "<br>";
-  }
+foreach ( $x->childNodes as $item ) {
+	print $item->nodeName . " = " . $item->nodeValue . "<br>";
+}
 ?>
