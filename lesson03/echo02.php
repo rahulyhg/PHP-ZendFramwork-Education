@@ -15,9 +15,9 @@ $level = array (
 );
 echo $txt1;
 echo "<br>";
-echo "跟$txt2学习PHP";
+echo "跟 $txt2 学习PHP";
 echo "<br>";
-echo "My car is a {$level[0]}";
+echo "我的水平是{$level[0]}";
 ?>
 
 </body>
