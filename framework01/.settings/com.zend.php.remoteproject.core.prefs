@@ -1,0 +1,7 @@
+LaunchURL=http\://server/folder
+Save\ Mode=ON_SAVE
+SelectedHostGUID=dd2581e5-43c5-49bb-ac27-7d7140c8e652
+UploadFolder=/usr/local/zend/var/apps/http/__default__/0/framework01/1.0.0
+eclipse.preferences.version=1
+isLocalProjectEnabled=false
+isRemoteProjectEnabled=true
