@@ -3,9 +3,9 @@ return array (
 		'controllers' => array (
 				'invokables' => array (
 						'Users\Controller\Index' => 'Users\Controller\IndexController',
-						'Users\Controller\Register' => 'Users\Controller\RegisterController' 
-				)
-				 
+						'Users\Controller\Register' => 'Users\Controller\RegisterController',
+						'Users\Controller\Login' => 'Users\Controller\LoginController' 
+				) 
 		),
 		'router' => array (
 				'routes' => array (
