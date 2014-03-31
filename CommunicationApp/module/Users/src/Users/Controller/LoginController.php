@@ -10,7 +10,8 @@ use Users\Form\LoginForm;
 
 class LoginController extends AbstractActionController {
 	public function indexAction() {
-		$form = new LoginForm ();
+// 		$form = new LoginForm ();
+		$form = $this->getServiceLocator()->get('LoginForm');
 		$viewModel = new ViewModel ( array (
 				'form' => $form 
 		) );

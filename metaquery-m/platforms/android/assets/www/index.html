@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Responsive Web Mobile - SlidePanel</title>
+
+<!-- Set the viewport width to device width for mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Included Bootstrap CSS Files -->
+<link rel="stylesheet" href="./js/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet"
+	href="./js/bootstrap/css/bootstrap-responsive.min.css" />
+
+<!-- Includes FontAwesome -->
+<link rel="stylesheet"
+	href="./css/font-awesome/css/font-awesome.min.css" />
+<!-- SlidePanel Css -->
+<link rel="stylesheet" href="./js/jquery.slidepanel/css/stylesheet.css" />
+
+</head>
+<body>
+
+	<!-- SlidePanel -->
+	<div id="slidein-panel">
+		<!-- SlidePanel Button Container -->
+		<div id="slidein-panel-container">
+			<a id="slidein-panel-btn" href="#"><i class="icon-list"></i></a>
+		</div>
+		<!-- /SlidePanel Button Container -->
+
+		<!-- SlidePanel Content -->
+		<ul>
+			<li><a href="#"><i class="icon-gear"></i>&nbsp; Settings</a></li>
+			<li><a href="hsciq.html"><i class="icon-cloud-upload"></i>&nbsp;
+					HSCIQ</a></li>
+			<li><a href="#"><i class="icon-off"></i>&nbsp; Logout</a></li>
+		</ul>
+		<!-- /SlidePanel Content -->
+	</div>
+	<!-- /SlidePanel -->
+
+	<!-- BOOTSTRAP CONTENT -->
+	<div class="container">
+		<div class="row">
+			<div class="span12">
+				<h1>CIQ Info Query</h1>
+				<h2>Client:</h2>
+				<p>jQuery Mobile framework takes the "write less, do more"
+					mantra to the next level: Instead of writing unique applications
+					for each mobile device or OS, the jQuery mobile framework allows
+					you to design a single highly-branded responsive web site or
+					application that will work on all popular smartphone, tablet, and
+					desktop platforms.</p>
+				<h2>Server:</h2>
+				<p>Zend Framework is an open source, object oriented web
+					application framework for PHP 5. Zend Framework is often called a
+					'component library', because it has many loosely coupled components
+					that you can use more or less independently. But Zend Framework
+					also provides an advanced Model-View-Controller (MVC)
+					implementation that can be used to establish a basic structure for
+					your Zend Framework applications.</p>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="./js/jquery-1.10.0.min.js"></script>
+	<script src="./js/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- SlidePanel jQuery -->
+	<script src="./js/jquery.slidepanel/js/jquery.slidepanel.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$.SlidePanel();
+		});
+	</script>
+</body>
+</html>
