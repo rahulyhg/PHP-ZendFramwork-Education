@@ -5,7 +5,7 @@
 <?php include 'menu.php'; ?>
 </div>
 
-	<h1>Welcome to my home page.</h1>
+	<h1>欢迎进入主页</h1>
 	<p>Some text.</p>
 
 </body>
